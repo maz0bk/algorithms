@@ -1,5 +1,8 @@
 package linkedlist.twoside;
 
+import linkedlist.Entry;
+import linkedlist.SimpleLinkedListImpl;
+
 public class TwoSideLinkedListImpl<E> extends SimpleLinkedListImpl<E> implements TwoSideLinkedList<E> {
     private Entry<E> lastElement;
 

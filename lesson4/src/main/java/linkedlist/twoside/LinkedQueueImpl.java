@@ -1,5 +1,7 @@
 package linkedlist.twoside;
 
+import queue.Queue;
+
 public class LinkedQueueImpl<E> implements Queue<E> {
     private TwoSideLinkedList<E> data;
 

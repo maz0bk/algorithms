@@ -1,6 +1,8 @@
 package linkedlist.twoside;
 
-public interface TwoSideLinkedList<E>  extends LinkedList<E>{
+import linkedlist.LinkedList;
+
+public interface TwoSideLinkedList<E>  extends LinkedList<E> {
 
         void insertLeft(E value);
         void insertRight(E value);

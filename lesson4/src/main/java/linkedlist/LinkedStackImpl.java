@@ -1,5 +1,6 @@
 package linkedlist;
 
+
 import stack.Stack;
 
 public class LinkedStackImpl<E> implements Stack<E> {
