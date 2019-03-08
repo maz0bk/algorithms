@@ -11,8 +11,6 @@ public class MainApp {
 
     public static void main(String[] args) throws InterruptedException, TimeoutException, ExecutionException {
         Supplier<Array> constructor = ArrayImpl::new;
-//        Supplier<Array> constructor = () -> new ArrayImpl();
-//        Supplier<Array> constructor = SortedArrayImpl::new;
 
         Array arr1 = createArray(constructor);
         Array arr2 = createArray(constructor);
